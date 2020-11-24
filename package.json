@@ -3,12 +3,29 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@paprika/button": "^0.2.26",
+    "@paprika/checkbox": "^0.2.15",
+    "@paprika/collapsible": "^0.2.20",
+    "@paprika/collapsible-checklists": "^0.3.21",
+    "@paprika/collapsible-text": "^0.2.28",
+    "@paprika/form-element": "^0.3.19",
+    "@paprika/icon": "^0.3.3",
+    "@paprika/input": "^0.2.29",
+    "@paprika/l10n": "^0.3.22",
+    "@paprika/modal": "^0.2.23",
+    "@paprika/pill": "^0.2.20",
+    "@paprika/spinner": "^0.2.16",
+    "@paprika/tabs": "^0.2.11",
+    "@paprika/toast": "^0.2.32",
+    "@paprika/uploader": "^1.0.1",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "node-sass": "^4.14.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-scripts": "3.4.1",
+    "styled-components": "^5.1.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -30,5 +47,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "prettier": "^2.0.5"
   }
 }
